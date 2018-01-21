@@ -31,8 +31,8 @@ $.ajax({
 });
 
 $.getScript("https://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js",function(){
-	getFullweather(remote_ip_info.city);
-	// getFullweather("太原");
+	//getFullweather(remote_ip_info.city);
+	 getFullweather("太原");
 });
 
 function getFullweather(nowcity){
